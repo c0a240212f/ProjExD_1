@@ -26,7 +26,6 @@ def main():
         screen.blit(bg_img2, [-x + 1600, 0]) # 練習8
         screen.blit(bg_img, [-x + 3200, 0])  # 練習9
 
-        # --- ここを改良：移動ベクトルを一度計算して move_ip を一回だけ呼ぶ ---
         key_lst = pg.key.get_pressed()
 
         # デフォルトの横速度（背景と同じ速度で左に流れる）
